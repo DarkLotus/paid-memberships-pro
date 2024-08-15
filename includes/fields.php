@@ -1482,15 +1482,15 @@ function pmpro_get_field_html( $field = null ) {
                     <span class="description"><?php esc_html_e( 'Assign a custom CSS selector to the field', 'paid-memberships-pro' ); ?></span>
                 </div> <!-- end pmpro_userfield-field-setting -->
             </div> <!-- end pmpro_userfield-field-setting-dual -->
-			
-			<?php if(defined('PMPROBP_DIR')) : ?>
-				<div class="pmpro_userfield-field-setting">
+
+            <?php if(defined('PMPROBP_DIR')) : ?>
+                <div class="pmpro_userfield-field-setting">
                     <label>
                         <?php esc_html_e( 'BP XField Name', 'paid-memberships-pro' ); ?><br />
-						<input type="text" placeholder="The Name of the Xprofile Field, or blank to not sync" name="pmpro_userfields_field_buddypress" value="<?php echo esc_attr( $field_buddypress );?>" />
+                        <input type="text" placeholder="The Name of the Xprofile Field, or blank to not sync" name="pmpro_userfields_field_buddypress" value="<?php echo esc_attr( $field_buddypress );?>" />
                     </label>                    
                 </div> <!-- end pmpro_userfield-field-setting -->
-			<?php endif; ?>
+                <?php endif; ?>
 
             <div class="pmpro_userfield-field-setting">
                 <label>
