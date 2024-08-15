@@ -1486,8 +1486,8 @@ function pmpro_get_field_html( $field = null ) {
 			<?php if(defined('PMPROBP_DIR')) : ?>
 				<div class="pmpro_userfield-field-setting">
                     <label>
-                        <?php esc_html_e( 'BP Field name', 'paid-memberships-pro' ); ?><br />
-						<input type="text" name="pmpro_userfields_field_buddypress" value="<?php echo esc_attr( $field_buddypress );?>" />
+                        <?php esc_html_e( 'BP XField Name', 'paid-memberships-pro' ); ?><br />
+						<input type="text" placeholder="The Name of the Xprofile Field, or blank to not sync" name="pmpro_userfields_field_buddypress" value="<?php echo esc_attr( $field_buddypress );?>" />
                     </label>                    
                 </div> <!-- end pmpro_userfield-field-setting -->
 			<?php endif; ?>
